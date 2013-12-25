@@ -166,6 +166,6 @@ public class Quadrangle extends Point{
             ", cos(CD^DA) = "+setRound(getC())+
             ", cos(DA^AB) = "+setRound(getD())+
             ", Max(cos) = "+setRound(getMax())+
-            ", P = "+setRound(getPerimetr())+"  "+getDateTime();     
+            ", P = "+setRound(getPerimetr());     
     }
 }

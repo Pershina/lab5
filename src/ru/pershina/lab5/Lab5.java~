@@ -2,15 +2,13 @@ package ru.pershina.lab5;
 
 import java.io.*;
 import java.util.*;
-/**
- *Основной класс программы
- *@author Pershina Elena
- */
+
 public class Lab5 {
     private static List<Point> list;
     private static void init(){
     list = new ArrayList<>();
-    list.add(new Point(0,4,-8));
+Date date = new Date(System.currentTimeMillis());
+     list.add(new Point(0,4,-8));
     list.add(new Vector(new Point(1,2,5),new Point(9,7,6)));
     list.add(new Triangle(new Point(5,3,4),new Point(5,6,7),new Point(8,9,5)));
     list.add(new Quadrangle(new Point(1,1,5),new Point(8,4,5),new Point(10,6,7),new Point(6,7,5)));

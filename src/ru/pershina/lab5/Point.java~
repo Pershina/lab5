@@ -34,10 +34,14 @@ public class Point implements Movable, Simmetry{
         y = p.getY();
         z = p.getZ();
     }
-    protected String getDateTime() {
+private String getDateTime() {
+
         DateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss");
+
         Date date = new Date();
+
         return dateFormat.format(date);
+
     }
 /**
  Реализация перемещения объекта на заданный вектор 

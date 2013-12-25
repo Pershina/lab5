@@ -84,6 +84,6 @@ public class Vector extends Point{
                 ", координаты("+setRound(getKx())+
                 "," +setRound(getKy())+
                 "," +setRound(getKz())+
-                "), cos(OA^OB) = "+setRound(getCos())+"  "+getDateTime();
+                "), cos(OA^OB) = "+setRound(getCos());
     }
 }

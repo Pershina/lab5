@@ -80,7 +80,7 @@ public class Triangle extends Point{
                 ", CA = "+setRound(ca)+
                 ", P = "+setRound(getPerimetr())+
                 ", P/2 = "+setRound(getPolperimetr())+
-                ", S = "+setRound(getArea())+"  "+getDateTime();     
+                ", S = "+setRound(getArea());     
  
        }
 }
